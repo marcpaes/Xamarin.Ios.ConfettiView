@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "confetti", "confetti\confetti.csproj", "{B9969622-7653-49BF-9BE6-4CDEE65A31BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9969622-7653-49BF-9BE6-4CDEE65A31BB}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{B9969622-7653-49BF-9BE6-4CDEE65A31BB}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{B9969622-7653-49BF-9BE6-4CDEE65A31BB}.Release|iPhone.ActiveCfg = Release|iPhone
+		{B9969622-7653-49BF-9BE6-4CDEE65A31BB}.Release|iPhone.Build.0 = Release|iPhone
+		{B9969622-7653-49BF-9BE6-4CDEE65A31BB}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{B9969622-7653-49BF-9BE6-4CDEE65A31BB}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{B9969622-7653-49BF-9BE6-4CDEE65A31BB}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{B9969622-7653-49BF-9BE6-4CDEE65A31BB}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
