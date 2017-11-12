@@ -1,9 +1,8 @@
-# Xamarin.Ios.ConfettiView
+# Xamarin ConfettiView
 Port of [SAConfettiView] to Xamarin.Ios
 
 [SAConfettiView]:https://github.com/sudeepag/SAConfettiView
 
-# Xamarin ConfettiView
 It's raining confetti! SAConfettiView is the easiest way to add fun, multi-colored confetti to your application and make users feel rewarded. Written in csharp, SAConfettiView is a subclass of UIView and is highly customizable. From various types and colors of confetti to different levels of intensity, you can make the confetti as fancy as you want.
 
 ## Installation
