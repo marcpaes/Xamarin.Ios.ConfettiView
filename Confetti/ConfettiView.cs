@@ -7,14 +7,6 @@ using static System.Math;
 
 namespace Confetti
 {
-    public enum ConfettiType
-    {
-        Confetti,
-        Triangle,
-        Star,
-        Diamond,
-        Image
-    }
 
     public class ConfettiView : UIView
     {
@@ -106,26 +98,24 @@ namespace Confetti
             return UIImage.FromBundle($"{fileName}.png");
         }
 
-        //Entender:
-        //http://blog.argteam.com/tag/caemittercell/
-        //https://github.com/dpianelli/SAConfettiView
         private CAEmitterCell ConfettiWithColor(UIColor color)
         {
-            var confetti = new CAEmitterCell();
-            confetti.BirthRate = 6F * Intensity;
-            confetti.LifeTime = 14F * Intensity;
-            confetti.LifetimeRange = 0;
-            confetti.Color = color.CGColor;
-            confetti.Velocity = 350.0F * Intensity;
-            //confetti.AccelerationY = 150;
-            confetti.VelocityRange = 80.0F * Intensity;
-            confetti.EmissionLongitude = PI_2;
-            confetti.EmissionRange = PI_4;
-            confetti.Spin = 3.5F * Intensity;
-            confetti.SpinRange = 4F * Intensity;
-            confetti.ScaleRange = Intensity;
-            confetti.ScaleSpeed = -0.1F * Intensity;
-            confetti.Contents = ImageForType(ConfettiType)?.CGImage;
+            var confetti = new CAEmitterCell
+            {
+                BirthRate = 6F * Intensity,
+                LifeTime = 14F * Intensity,
+                LifetimeRange = 0,
+                Color = color.CGColor,
+                Velocity = 350.0F * Intensity,
+                VelocityRange = 80.0F * Intensity,
+                EmissionLongitude = PI_2,
+                EmissionRange = PI_4,
+                Spin = 3.5F * Intensity,
+                SpinRange = 4F * Intensity,
+                ScaleRange = Intensity,
+                ScaleSpeed = -0.1F * Intensity,
+                Contents = ImageForType(ConfettiType)?.CGImage
+            };
             return confetti;
         }
     }
