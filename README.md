@@ -6,9 +6,9 @@ It's raining confetti! SAConfettiView is the easiest way to add fun, multi-color
 
 ## Installation
 
-Available from Nuget: [conf-link]
+Available from [Nuget]
 
-[conf-link]:https://www.nuget.org/packages/Confetti/
+[Nuget]:https://www.nuget.org/packages/Confetti/
 
 ## Usage
 
