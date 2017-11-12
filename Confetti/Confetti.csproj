@@ -22,7 +22,7 @@
     <Summary>Add multi-colored confetti to your application and make users feel rewarded. Port of SAConfettiView.</Summary>
     <PackageTags>xamarin ios confetti</PackageTags>
     <Title>Confetti</Title>
-    <Description>C# Port of SAConfettiView - https://github.com/sudeepag/SAConfettiView</Description>
+    <Description>C# Confetti Rain for iOS <br> From http://www.tg4.com.br <br> Port of SAConfettiView - https://github.com/sudeepag/SAConfettiView</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
